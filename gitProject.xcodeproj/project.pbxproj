@@ -17,11 +17,8 @@
 		7E5DE41A281B64C0000429C8 /* gitProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5DE419281B64C0000429C8 /* gitProjectUITests.swift */; };
 		7E5DE41C281B64C0000429C8 /* gitProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5DE41B281B64C0000429C8 /* gitProjectUITestsLaunchTests.swift */; };
 		7E5DE42E281B6615000429C8 /* FunctionA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5DE42D281B6615000429C8 /* FunctionA.swift */; };
-
-		7E5DE434281B7A22000429C8 /* FunctionD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5DE433281B7A22000429C8 /* FunctionD.swift */; };
-
 		7E5DE431281B7A12000429C8 /* FunctionC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5DE430281B7A12000429C8 /* FunctionC.swift */; };
-
+		7E5DE437281B7C64000429C8 /* FunctionD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5DE436281B7C64000429C8 /* FunctionD.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,11 +53,8 @@
 		7E5DE419281B64C0000429C8 /* gitProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gitProjectUITests.swift; sourceTree = "<group>"; };
 		7E5DE41B281B64C0000429C8 /* gitProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gitProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7E5DE42D281B6615000429C8 /* FunctionA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionA.swift; sourceTree = "<group>"; };
-
-		7E5DE433281B7A22000429C8 /* FunctionD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionD.swift; sourceTree = "<group>"; };
-
 		7E5DE430281B7A12000429C8 /* FunctionC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionC.swift; sourceTree = "<group>"; };
-
+		7E5DE436281B7C64000429C8 /* FunctionD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionD.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,11 +105,8 @@
 		7E5DE3F7281B64BF000429C8 /* gitProject */ = {
 			isa = PBXGroup;
 			children = (
-
-				7E5DE432281B7A15000429C8 /* FunctionD */,
-
+				7E5DE435281B7C64000429C8 /* FunctionD */,
 				7E5DE42F281B7A06000429C8 /* FunctionC */,
-
 				7E5DE42C281B660A000429C8 /* FunctionA */,
 				7E5DE3F8281B64BF000429C8 /* AppDelegate.swift */,
 				7E5DE3FA281B64BF000429C8 /* SceneDelegate.swift */,
@@ -153,21 +144,20 @@
 			path = FunctionA;
 			sourceTree = "<group>";
 		};
-
-		7E5DE432281B7A15000429C8 /* FunctionD */ = {
-			isa = PBXGroup;
-			children = (
-				7E5DE433281B7A22000429C8 /* FunctionD.swift */,
-			);
-			path = FunctionD;
-
 		7E5DE42F281B7A06000429C8 /* FunctionC */ = {
 			isa = PBXGroup;
 			children = (
 				7E5DE430281B7A12000429C8 /* FunctionC.swift */,
 			);
 			path = FunctionC;
-
+			sourceTree = "<group>";
+		};
+		7E5DE435281B7C64000429C8 /* FunctionD */ = {
+			isa = PBXGroup;
+			children = (
+				7E5DE436281B7C64000429C8 /* FunctionD.swift */,
+			);
+			path = FunctionD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,9 +291,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E5DE434281B7A22000429C8 /* FunctionD.swift in Sources */,
 				7E5DE3FD281B64BF000429C8 /* ViewController.swift in Sources */,
 				7E5DE42E281B6615000429C8 /* FunctionA.swift in Sources */,
+				7E5DE437281B7C64000429C8 /* FunctionD.swift in Sources */,
 				7E5DE3F9281B64BF000429C8 /* AppDelegate.swift in Sources */,
 				7E5DE3FB281B64BF000429C8 /* SceneDelegate.swift in Sources */,
 				7E5DE431281B7A12000429C8 /* FunctionC.swift in Sources */,
