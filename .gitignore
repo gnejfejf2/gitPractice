@@ -108,5 +108,6 @@ iOSInjectionProject/
 ### Xcode Patch ###
 **/xcshareddata/WorkspaceSettings.xcsettings
 
-# End of https://www.gitignore.io/api/xcode,swift,cocoapods
 .DS_Store
+
+# End of https://www.gitignore.io/api/xcode,swift,cocoapods
