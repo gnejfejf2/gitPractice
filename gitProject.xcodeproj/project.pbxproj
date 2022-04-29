@@ -19,6 +19,7 @@
 		7E5DE42E281B6615000429C8 /* FunctionA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5DE42D281B6615000429C8 /* FunctionA.swift */; };
 		7E5DE431281B7A12000429C8 /* FunctionC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5DE430281B7A12000429C8 /* FunctionC.swift */; };
 		7E5DE437281B7C64000429C8 /* FunctionD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5DE436281B7C64000429C8 /* FunctionD.swift */; };
+		7E5DE43D281B8058000429C8 /* TStroyB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5DE43C281B8058000429C8 /* TStroyB.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		7E5DE42D281B6615000429C8 /* FunctionA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionA.swift; sourceTree = "<group>"; };
 		7E5DE430281B7A12000429C8 /* FunctionC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionC.swift; sourceTree = "<group>"; };
 		7E5DE436281B7C64000429C8 /* FunctionD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionD.swift; sourceTree = "<group>"; };
+		7E5DE43C281B8058000429C8 /* TStroyB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TStroyB.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		7E5DE3F7281B64BF000429C8 /* gitProject */ = {
 			isa = PBXGroup;
 			children = (
+				7E5DE43B281B804C000429C8 /* TStroyB */,
 				7E5DE435281B7C64000429C8 /* FunctionD */,
 				7E5DE42F281B7A06000429C8 /* FunctionC */,
 				7E5DE42C281B660A000429C8 /* FunctionA */,
@@ -158,6 +161,14 @@
 				7E5DE436281B7C64000429C8 /* FunctionD.swift */,
 			);
 			path = FunctionD;
+			sourceTree = "<group>";
+		};
+		7E5DE43B281B804C000429C8 /* TStroyB */ = {
+			isa = PBXGroup;
+			children = (
+				7E5DE43C281B8058000429C8 /* TStroyB.swift */,
+			);
+			path = TStroyB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E5DE3FD281B64BF000429C8 /* ViewController.swift in Sources */,
+				7E5DE43D281B8058000429C8 /* TStroyB.swift in Sources */,
 				7E5DE42E281B6615000429C8 /* FunctionA.swift in Sources */,
 				7E5DE437281B7C64000429C8 /* FunctionD.swift in Sources */,
 				7E5DE3F9281B64BF000429C8 /* AppDelegate.swift in Sources */,
