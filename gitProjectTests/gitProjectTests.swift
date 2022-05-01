@@ -16,9 +16,9 @@ class gitProjectTests: XCTestCase {
         XCTAssert(true, "성공")
     }
 
-    func testExample2(){
-      
-        XCTAssert(false, "성공")
-    }
+//    func testExample2(){
+//      
+//        XCTAssert(false, "성공")
+//    }
 
 }
