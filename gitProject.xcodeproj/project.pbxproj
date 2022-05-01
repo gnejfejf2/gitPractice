@@ -14,8 +14,6 @@
 		7E5DE402281B64C0000429C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E5DE401281B64C0000429C8 /* Assets.xcassets */; };
 		7E5DE405281B64C0000429C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E5DE403281B64C0000429C8 /* LaunchScreen.storyboard */; };
 		7E5DE410281B64C0000429C8 /* gitProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5DE40F281B64C0000429C8 /* gitProjectTests.swift */; };
-		7E5DE41A281B64C0000429C8 /* gitProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5DE419281B64C0000429C8 /* gitProjectUITests.swift */; };
-		7E5DE41C281B64C0000429C8 /* gitProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5DE41B281B64C0000429C8 /* gitProjectUITestsLaunchTests.swift */; };
 		7E5DE42E281B6615000429C8 /* FunctionA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5DE42D281B6615000429C8 /* FunctionA.swift */; };
 		7E5DE431281B7A12000429C8 /* FunctionC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5DE430281B7A12000429C8 /* FunctionC.swift */; };
 		7E5DE434281B7A22000429C8 /* FunctionD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5DE433281B7A22000429C8 /* FunctionD.swift */; };
@@ -52,8 +50,6 @@
 		7E5DE40B281B64C0000429C8 /* gitProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E5DE40F281B64C0000429C8 /* gitProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gitProjectTests.swift; sourceTree = "<group>"; };
 		7E5DE415281B64C0000429C8 /* gitProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E5DE419281B64C0000429C8 /* gitProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gitProjectUITests.swift; sourceTree = "<group>"; };
-		7E5DE41B281B64C0000429C8 /* gitProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gitProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7E5DE42D281B6615000429C8 /* FunctionA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionA.swift; sourceTree = "<group>"; };
 		7E5DE430281B7A12000429C8 /* FunctionC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionC.swift; sourceTree = "<group>"; };
 		7E5DE433281B7A22000429C8 /* FunctionD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionD.swift; sourceTree = "<group>"; };
@@ -91,7 +87,6 @@
 			children = (
 				7E5DE3F7281B64BF000429C8 /* gitProject */,
 				7E5DE40E281B64C0000429C8 /* gitProjectTests */,
-				7E5DE418281B64C0000429C8 /* gitProjectUITests */,
 				7E5DE3F6281B64BF000429C8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -131,15 +126,6 @@
 				7E5DE40F281B64C0000429C8 /* gitProjectTests.swift */,
 			);
 			path = gitProjectTests;
-			sourceTree = "<group>";
-		};
-		7E5DE418281B64C0000429C8 /* gitProjectUITests */ = {
-			isa = PBXGroup;
-			children = (
-				7E5DE419281B64C0000429C8 /* gitProjectUITests.swift */,
-				7E5DE41B281B64C0000429C8 /* gitProjectUITestsLaunchTests.swift */,
-			);
-			path = gitProjectUITests;
 			sourceTree = "<group>";
 		};
 		7E5DE42C281B660A000429C8 /* FunctionA */ = {
@@ -336,8 +322,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E5DE41A281B64C0000429C8 /* gitProjectUITests.swift in Sources */,
-				7E5DE41C281B64C0000429C8 /* gitProjectUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
