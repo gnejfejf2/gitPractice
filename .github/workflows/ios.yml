@@ -23,7 +23,7 @@ jobs:
           scheme: ${{ 'default' }}
           platform: ${{ 'iOS Simulator' }}
         run: |
-          xcodebuild build-for-testing -scheme "$scheme" -"$filetype_parameter" "$file_to_build" -destination "platform=iOS Simulator,name=iPhone 13,OS=15.0"
+          xcodebuild clean test -workspace "gitProject.xcworkspace" -scheme "Debug" -destination "platform=iOS Simulator,name=iPhone 13,OS=15.0"
       - name: Test
         env:
           scheme: ${{ 'default' }}
