@@ -23,7 +23,7 @@ jobs:
           scheme: ${{ 'default' }}
           platform: ${{ 'iOS Simulator' }}
         run: |
-          xcodebuild clean test -workspace "gitProject.xcworkspace" -scheme "Debug" -destination "platform=iOS Simulator,name=iPhone 13,OS=15.0"
+          xcodebuild clean test -workspace "gitProject.xcodepro" -scheme "Debug" -destination "platform=iOS Simulator,name=iPhone 13,OS=15.0"
       - name: Test
         env:
           scheme: ${{ 'default' }}
