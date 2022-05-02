@@ -21,4 +21,8 @@ class gitProjectTests: XCTestCase {
         XCTAssert(true, "성공")
     }
 
+    func testExample3(){
+      
+        XCTAssert(true, "성공")
+    }
 }
